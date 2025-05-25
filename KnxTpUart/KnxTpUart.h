@@ -52,7 +52,6 @@ class KnxTpUart {
 
   public:
     KnxTpUart(TPUART_SERIAL_CLASS*, String);
-    ~KnxTpUart();
     void uartReset();
     void uartStateRequest();
     KnxTpUartSerialEventType serialEvent();
