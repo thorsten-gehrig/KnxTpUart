@@ -1,0 +1,11 @@
+{
+    "name": "KnxTpUart",
+    "version": "0.1.0",
+    "description": "KNX-TP Library",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/thorsten-gehrig/KnxTpUart"
+    }    
+
+}
