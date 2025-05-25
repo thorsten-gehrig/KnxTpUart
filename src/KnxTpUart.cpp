@@ -20,6 +20,11 @@ KnxTpUart::KnxTpUart(TPUART_SERIAL_CLASS* sport, String address) {
   _listen_to_broadcasts = false;
 }
 
+KnxTpUart::~KnxTpUart() {
+  delete _tg;
+  delete _tg_ptp;
+}
+
 void KnxTpUart::setListenToBroadcasts(bool listen) {
   _listen_to_broadcasts = listen;
 }
